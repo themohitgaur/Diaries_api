@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/themohitgaur/Diaries_api/issues"
   },
-  "homepage": "https://github.com/themohitgaur/Diaries_api#readme"
+  "homepage": "https://github.com/themohitgaur/Diaries_api#readme",
+  "dependencies": {
+    "mongoose": "^5.10.7"
+  }
 }
