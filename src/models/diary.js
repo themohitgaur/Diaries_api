@@ -9,6 +9,14 @@ const diarySchema = new Schema({
     img:{type:String},
     title:{type:String,required:true},
     content:{type:String,required:true},
+    CreatedAt: {
+        type: Schema.Types.date,
+        ref: 'User',
+    },
+    updatedAt: {
+        type: Schema.Types.date,
+        ref: 'User',
+    }
 });
 
 module.exports= mongoose.model('diary',diarySchema);
